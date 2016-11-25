@@ -218,7 +218,7 @@ p {
 
 .bluecontainer {
 	background-color: #4285F4;
-	height: 800px;
+	height: 900px;
 }
 
 
@@ -228,3 +228,46 @@ p {
 }
 
 
+
+.extrainfo {
+	color: white;
+	font-family: Ubuntu;
+	font-size: 18px;
+	text-align: center;
+}
+
+.taskcontainer {
+	height: 400px;
+}
+
+.subtask {
+	height: 100px;
+	width: 600px;
+	margin: auto;
+}
+
+.enumerator {
+	height: 60px;
+	width: 60px;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 60px;
+	
+	border: 2px solid white;
+	border-radius: 4px;
+	
+	color: white;
+	font-size: 26px;
+	font-family: 'Space Mono';
+	
+	float: left;
+}
+
+.taskdescription {
+	color: white;
+	font-family: Ubuntu;
+	font-size: 16px;
+	width: 500px;
+	margin-left: 80px;
+	padding-top: 5px;
+}
