@@ -1,0 +1,35 @@
+.fadefx-fadein-down {
+	opacity: 0;
+	vertical-align: bottom;
+	-moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+     box-sizing: border-box; 
+}
+
+.fadefx-fadein-up {
+	opacity: 0;
+	-moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+     box-sizing: border-box; 
+}
+
+.fadefx-fadein {
+	opacity: 0;
+}
+
+
+.fadefx-fadein-left {
+	opacity: 0;
+	padding-right: 50px;
+	-moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+     box-sizing: border-box; 
+}
+
+.fadefx-fadein-right {
+	opacity: 0;
+	padding-left: 50px;
+	-moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+     box-sizing: border-box; 
+}

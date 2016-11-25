@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+        <title>Test</title>
+		
+		<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+		<script src="fadefx.js"></script>
+		<link type="text/css" rel="stylesheet" href="fadefx.css"/>
+		<link href="https://fonts.googleapis.com/css?family=Space+Mono|Ubuntu|Raleway|Inconsolata" rel="stylesheet">
+		
+	</head>
+	
+	<body>
+		<div class="headerbackground">
+			<div style="height:250px;"></div>
+			<div class="mainheader fadefx-fadein-down :200ms ::800ms">
+				<b>FADE</b>FX
+			</div>
+			<div class="leftheader fadefx-fadein-up :200ms ::900ms">
+				Elegant animations, easy implementation.
+			</div>
+			<br>
+			<div class="buttoncontainer noselect">
+				<div class="button fadefx-fadein :700ms" style="float:left" id="leftbutton">Learn more</div>
+				<div class="button fadefx-fadein :700ms" style="float:right" id="rightbutton">Download</div>
+			</div>
+		</div>
+		<div class="arrowdown"></div>
+		<div style="height:300px;"></div>
+		<div style="height:700px">
+			<div class="subheader fadefx-fadein :700ms">
+				<b>Animations</b>, easier than ever.
+			</div>
+			<br>
+			<div class="subcontainer">
+				<div class="infobox" style="color:black">
+					<div class="fadefx-fadein-left :300ms ::700ms">
+						<div class="infoimg"><img src="ic_code_black_48dp_2x.png" width="72"></div>
+						<div class="infoboxheader">easy integration</div>
+					</div>
+					<br>
+					<div class="infoboxtext fadefx-fadein-up :400ms :20px">No weird JavaScript programming, just simple HTML &amp; CSS.</div>
+				</div>
+				<div class="infobox" style="color:black">
+					<div class="fadefx-fadein :500ms ::700ms">
+						<div class="infoimg"><img src="ic_tune_black_48dp_2x.png" width="72"></div>
+						<div class="infoboxheader">simple control</div>
+					</div>
+					<br>
+					<div class="infoboxtext fadefx-fadein-up :600ms :20px">Set your own custom durations and delays within a split second.</div>
+				</div>
+				<div class="infobox" style="color:black">
+					<div class="fadefx-fadein-right :700ms ::700ms">
+						<div class="infoimg"><img src="ic_schedule_black_48dp_2x.png" width="72"></div>
+						<div class="infoboxheader">within seconds</div>
+					</div>
+					<br>
+					<div class="infoboxtext fadefx-fadein-up :800ms :20px">Adding animations has never been so easy before.</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="darkcontainer">
+			<div class="arrowdown" id="white"></div>
+			
+			<br><br><br><br><br><br><br>
+			<div class="subheader fadefx-fadein :400ms" style="color:white">
+				No difficult code, easy to learn.
+			</div>
+			<br><br><br>
+			<div class="subcontainer" style="font-family:Raleway; color:white; height:160px;">
+				<div class="infobox fadefx-fadein-up :700ms ::1500ms">
+					Example of a normal animation
+					<br>
+					<br>
+					<div class="codeblock">
+						&lt;<span style="color:#DF0101">div</span> <span style="color:#00BFFF">class</span>="<span style="color:#FF4000">fadefx-fadein-up</span>"&gt;
+					</div>
+				</div>
+				<div class="infobox fadefx-fadein-up :900ms ::1500ms">
+					Example of custom delay
+					<br>
+					<br>
+					<div class="codeblock">
+						&lt;<span style="color:#DF0101">div</span> <span style="color:#00BFFF">class</span>="<span style="color:#FF4000">fadefx-fadein-up :300ms</span>"&gt;
+					</div>
+				</div>
+				<div class="infobox fadefx-fadein-up :1100ms ::1500ms">
+					Example of custom duration
+					<br>
+					<br>
+					<div class="codeblock">
+						&lt;<span style="color:#DF0101">div</span> <span style="color:#00BFFF">class</span>="<span style="color:#FF4000">fadefx-fadein-up ::1000ms</span>"&gt;
+					</div>
+				</div>
+			</div>
+			<div class="subcontainer" style="width:600px;">
+				<div class="secondsub">
+					<div class="infobox fadefx-fadein-up :1300ms ::1500ms" style="float:none; margin: auto; width: 300px;">
+						Change the animation height
+						<br>
+						<br>
+						<div class="codeblock">
+							&lt;<span style="color:#DF0101">div</span> <span style="color:#00BFFF">class</span>="<span style="color:#FF4000">fadefx-fadein-up :100px</span>"&gt;
+						</div>
+					</div>
+				</div>
+				<div class="secondsub">
+					<div class="infobox fadefx-fadein-up :1500ms ::1500ms" style="float:none; margin: auto; width: 300px;">
+						Or even combine them
+						<br>
+						<br>
+						<div class="codeblock">
+							&lt;<span style="color:#DF0101">div</span> <span style="color:#00BFFF">class</span>="<span style="color:#FF4000">fadefx-fadein-up ::1000ms :200ms :100px</span>"&gt;
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="bluecontainer">
+			<div class="arrowdown" id="dark"></div>
+			<br><br><br><br><br><br>
+			<div class="subheader fadefx-fadein-up" style="color:white;">In fact, this site is uses FadeFX.</div>
+		</div>
+	</body>
+</html>
