@@ -1,5 +1,7 @@
 <a href="https://github.com/Adriandmen/fadefx"><p align="center"><img src="https://i.stack.imgur.com/aA1mj.png" ></p></a>
 
+<p align="center">Go to <a href="https://adriandmen.github.io/fadefx/">the Github page</a> for a live demonstration!</p>
+
 <br>
 <br>
 
