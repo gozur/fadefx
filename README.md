@@ -1,5 +1,4 @@
-# fadefx
-For making animations in HTML not so difficult
+<p align="center"><img src="https://i.stack.imgur.com/aA1mj.png"/></p>
 
 <br>
 <br>
