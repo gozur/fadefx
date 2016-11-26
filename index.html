@@ -6,8 +6,9 @@
 		
 		<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-		<script src="https://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+		<script src="https://code.jquery.com/ui/1.10.3/jquery-ui.min.js"></script>
 		<script src="fadefx.js"></script>
+		<script src="scripts.js"></script>
 		<link type="text/css" rel="stylesheet" href="fadefx.css"/>
 		<link href="https://fonts.googleapis.com/css?family=Space+Mono|Ubuntu|Raleway|Inconsolata" rel="stylesheet">
 		
@@ -24,12 +25,12 @@
 			</div>
 			<br>
 			<div class="buttoncontainer noselect">
-				<div class="button fadefx-fadein :700ms" style="float:left" id="leftbutton">Learn more</div>
+				<a href="#two"><div class="button fadefx-fadein :700ms" style="float:left" id="leftbutton">Learn more</div></a>
 				<div class="button fadefx-fadein :700ms" style="float:right" id="rightbutton" onclick="location.href='https://github.com/Adriandmen/fadefx'">Download</div>
 			</div>
 		</div>
 		<div class="arrowdown"></div>
-		<div style="height:300px;"></div>
+		<div style="height:300px;" id="two"></div>
 		<div style="height:700px">
 			<div class="subheader fadefx-fadein :700ms">
 				<b>Animations</b>, easier than ever.
@@ -133,7 +134,7 @@
 					<div style="height: 40px;"></div>
 					<div>
 						<div class="enumerator fadefx-fadein :300ms ::800ms">1</div>
-						<div class="taskdescription fadefx-fadein-up :300ms ::800ms" style="padding-top:15px;">Download the latest version of FadeFX from the GitHub repository. You can just download the zip, containing fadefx.js and fadefx.css.</div>
+						<div class="taskdescription fadefx-fadein-up :300ms ::800ms" style="padding-top:15px;">Download the latest version of FadeFX from <a href="https://github.com/Adriandmen/fadefx" style="color:white;">the GitHub repository</a>. You can just download the zip, containing fadefx.js and fadefx.css.</div>
 					</div>
 				</div>
 				<div class="subtask">
@@ -149,7 +150,7 @@
 						<div class="enumerator fadefx-fadein :700ms ::800ms">3</div>
 						<div class="taskdescription fadefx-fadein-up :700ms ::800ms" style="padding-top:15px;">Copy and paste the following code into the head of the HTML page.
 							<div class="codeblock" style="width:460px;font-size:10px;padding-left:16px;margin-top:8px;background-color:white;color:black;">&lt;script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"&gt;&lt;/script&gt;<br>
-			&lt;script src="https://code.jquery.com/ui/1.10.3/jquery-ui.js">&lt;/script&gt;<br>
+			&lt;script src="https://code.jquery.com/ui/1.10.3/jquery-ui.min.js">&lt;/script&gt;<br>
 			&lt;script src="fadefx.js"&gt;&lt;/script&gt;<br>
 			&lt;link type="text/css" rel="stylesheet" href="fadefx.css"/&gt;&lt;/div&gt;</div>
 						</div>
@@ -166,6 +167,8 @@
 					</div>
 				</div>
 			</div>
+			<div style="height:200px;"></div>
+			<div class="button fadefx-fadein :700ms" style="float:none" id="rightbutton" onclick="location.href='https://github.com/Adriandmen/fadefx'">Download</div>
 		</div>
 	</body>
 </html>
