@@ -53,5 +53,5 @@ FadeFX is a jQuery plugin that uses _jQuery_ and _jQuery UI_. For a fast install
 
 ### Note
 
-This might contain a lot of bugs. This was actually for a school project, but then decided to make it a bit more elaborate. Also be aware that _not all tags_ will work on every HTML element. This can be fixed by adjusting the paddings/margins, or if it's not possible, just by using the `fadefx-fadein` tag. That works every time :).
+This was actually for a school project, but then decided to make it a bit more elaborate, so this might contain a lot of bugs. Also be aware that _not all tags_ will work on every HTML element. This can be fixed by adjusting the paddings/margins, or if it's not possible, just by using the `fadefx-fadein` tag. That works every time :).
 
